@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neu.mapper.UserMapper">
+    <!--    全部查询-->
+    <select id="selectAll" resultType="User">
+        select *
+        from user
+    </select>
+    <!--    id查询-->
+    <select id="selectById" resultType="User">
+        select *
+        from user
+        where id = #{id}
+    </select>
+    <!--    模糊查询，使用动态sql if，防空白-->
+    <select id="selectUserByUsername" resultType="User">
+        select * from user
+        <where>
+            <if test="username!=null and username!=''">
+                and username like concat('%', #{username}, '%')
+            </if>
+        </where>
+    </select>
+    <!--    增加-->
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into user(username, password, real_name, phone)
+        values (#{username}, #{password}, #{realName}, #{phone})
+    </insert>
+    <!--    更改-->
+    <update id="updateUser">
+        update user
+        <set>
+            <if test="username!=null and username!=''">username = #{username},</if>
+            <if test="password!=null and password!=''">password = #{password},</if>
+            <if test="realName!=null and realName!=''">real_name = #{realName},</if>
+            <if test="phone!=null and phone!=''">phone = #{phone},</if>
+        </set>
+        where id = #{id}
+    </update>
+    <!--    删除-->
+    <delete id="deleteUser">
+        delete
+        from user
+        where id = #{id}
+    </delete>
+</mapper>

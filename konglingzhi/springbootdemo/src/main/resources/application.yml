@@ -1,0 +1,14 @@
+#数据库连接
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tushuguanlixitong
+    username: root
+    password: root
+
+#mybatis配置,映射xml文件
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.neu.entity
+  configuration:
+    map-underscore-to-camel-case: true

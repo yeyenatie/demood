@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neu.mapper.BookMapper">
+    <!--    全部查询-->
+    <select id="selectAll" resultType="Book">
+        select *
+        from book
+    </select>
+    <!--    id查询-->
+    <select id="selectById" resultType="Book">
+        select *
+        from book
+        where id = #{id}
+    </select>
+    <!--    模糊查询，使用动态sql if，防空白-->
+    <select id="selectBookByName" resultType="Book">
+        select * from book
+        # 模糊查询如果不传书名，where会自动去掉多余的and，不会拼出where and
+        <where>
+            <if test="bookName!=null and bookName!=''">
+                and book_name like concat('%', #{bookName}, '%')
+            </if>
+        </where>
+    </select>
+    <!--    增加-->
+    <!--    useGeneratedKeys回填自增id-->
+    <insert id="insertBook" useGeneratedKeys="true" keyProperty="id">
+        insert into book(book_name, author, price)
+        values (#{bookName}, #{author}, #{price})
+    </insert>
+    <!--    更改-->
+    <!--    动态更新只更新非空字段-->
+    <update id="updateBook">
+        update book
+        # 更新用set会自动去掉末尾多余的都好，并支持只更新有值的字段
+        <set>
+            <if test="bookName!=null and bookName!=''">book_name = #{bookName},</if>
+            <if test="author!=null and author!=''">author = #{author},</if>
+            <if test="price!=null">price = #{price},</if>
+        </set>
+        where id = #{id}
+    </update>
+    <!--    删除-->
+    <delete id="deleteBook">
+        delete
+        from book
+        where id = #{id}
+    </delete>
+</mapper>

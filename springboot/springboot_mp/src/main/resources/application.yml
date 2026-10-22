@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo_db
+    username: root
+    password: root
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.demo.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+knife4j:
+  enable: true
+  openapi:
+    title: SpringBoot3 + Mybatis-Plus 项目接口文档
+    description: 后端接口文档
+    contact: admin
+    version: 1.0
+
+jwt:
+  secret: Z2hpc2VuZ2Jvb2tAMjAyNl9qd3Rfc2VjcmV0X2tleV8zMmJ5dGVzISE=
+  expire: 7200000

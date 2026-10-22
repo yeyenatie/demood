@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #303133;
+}
+
+/* 通用内容卡片 */
+.page-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(31, 58, 147, 0.06);
+}
+
+.page-card h3 {
+  color: #1f2d52;
+  margin-bottom: 12px;
+}
+
+.tip {
+  color: #909399;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.mt {
+  margin-top: 16px;
+}
+
+.row-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}

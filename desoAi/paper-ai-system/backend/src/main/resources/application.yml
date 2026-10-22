@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/paper_ai?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    # TODO: 改成你自己的 MySQL 密码
+    password: "root"
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+# 自定义配置
+paper-ai:
+  # Python AI 服务地址
+  ai-service-url: http://localhost:8000
+  # JWT 密钥与有效期（小时）
+  jwt-secret: paper-ai-jwt-secret-2026
+  jwt-expire-hours: 72
+  # 每个用户每周 AI 生成次数上限（题目推荐/大纲/章节生成各计 1 次）
+  ai-gen-limit: 10

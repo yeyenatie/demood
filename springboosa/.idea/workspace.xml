@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d2cdd7e-8da5-46f5-9fc3-527b3ff9aeeb" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../MySQL/dmeo_db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/.idea/dss[ython.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dss[ython/ttos.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yeyenatie&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yeyenatie/demood.git&quot;,
+    &quot;accountId&quot;: &quot;e98b0811-f9f0-43a1-933e-485c924d4a73&quot;
+  }
+}</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KcaNetEoGRWt9cyOmzpj3ikB5t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP 请求.boosa | 3. 分页查询商品（默认第1页、每页6条，不传名称查全部）.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 3. 查询用户列表.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 分页查询商品.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 删除用户.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 删除订单.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 新增用户.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 新增订单.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 查询订单列表.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 用户注册.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.boosa | 用户登录.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/gongzhuo/springboosa&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;
+    ]
+  }
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="boosa | 3. 分页查询商品（默认第1页、每页6条，不传名称查全部）" value="STOPPED" />
+              <entry key="boosa | 3. 查询用户列表" value="STOPPED" />
+              <entry key="boosa | 用户注册" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="boosa | 3. 分页查询商品（默认第1页、每页6条，不传名称查全部）" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="3. 分页查询商品（默认第1页、每页6条，不传名称查全部）" index="8" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 3. 查询用户列表" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="3. 查询用户列表" index="2" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 查询订单列表" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="查询订单列表" index="5" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 删除订单" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="删除订单" index="7" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 用户登录" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="用户登录" index="10" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 分页查询商品" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="分页查询商品" index="8" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 用户注册" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="用户注册" index="9" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 删除用户" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="删除用户" index="4" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="boosa | 分页查询商品" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/target/boosa.http" executionIdentifier="分页查询商品" index="8" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboosa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.boosa | 3. 分页查询商品（默认第1页、每页6条，不传名称查全部）" />
+        <item itemvalue="HTTP 请求.boosa | 3. 查询用户列表" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8d2cdd7e-8da5-46f5-9fc3-527b3ff9aeeb" name="更改" comment="" />
+      <created>1791859272778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791859272778</updated>
+      <workItem from="1791859273833" duration="110000" />
+      <workItem from="1791859393277" duration="157000" />
+      <workItem from="1791859558174" duration="5055000" />
+      <workItem from="1792028169143" duration="611000" />
+      <workItem from="1792028793477" duration="12694000" />
+      <workItem from="1792200941696" duration="8363000" />
+      <workItem from="1792209870678" duration="218000" />
+      <workItem from="1792214849781" duration="10000" />
+      <workItem from="1792215055841" duration="40000" />
+      <workItem from="1792215110518" duration="6203000" />
+      <workItem from="1792460154242" duration="15734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,27 +1,39 @@
 <template>
   <div id="app">
+    <!-- 临时导航：仅用于验证四个路由可切换，后续替换为正式电商导航栏 -->
+    <nav class="nav">
+      <router-link to="/">首页</router-link>
+      <router-link to="/category">分类</router-link>
+      <router-link to="/cart">购物车</router-link>
+      <router-link to="/mine">我的</router-link>
+    </nav>
     <router-view />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
 <style>
-/* 全局基础样式重置 */
-* {
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
-html, body, #app {
-  width: 100%;
-  height: 100%;
-  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
-    'Microsoft YaHei', Arial, sans-serif;
+.nav {
+  display: flex;
+  gap: 24px;
+  padding: 12px 24px;
+  border-bottom: 1px solid #ebeef5;
+}
+
+.nav a {
+  color: #303133;
+  text-decoration: none;
+}
+
+.nav a.router-link-active {
+  color: #409eff;
+  font-weight: 600;
+}
+
+.page {
+  padding: 24px;
 }
 </style>
